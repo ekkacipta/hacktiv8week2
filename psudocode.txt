@@ -1,0 +1,41 @@
+1.Newton second law
+STORE "width" 600
+STORE "height" 2
+STORE "area"
+
+CALCULATE "width" times "height"
+SET "area" value with calculation result
+
+DISPLAY "area"
+
+2.Tahun Kabisat
+STORE "tahun" 2018
+CALCULATE "tahun" mod 4 
+STORE "hasil1" value of calculation
+CALCULATE "tahun" mod 100
+STORE "hasil2" value of calculation
+CALCULATE "tahun" mod 400
+STORE "hasil3"
+
+If "hasil1" equals to 0 AND "hasil2" not equals to 0
+    DO "KABISAT"
+Else If "hasil1" equals to 0 AND "hasil2" equals to 0 AND "hasil3" equals to 0
+    DO "KABISAT"
+
+Else
+    DO "NOT KABISAT"
+
+3.Laundry Dry
+STORE "baju" with 0
+WHILE "baju" < 20
+    ADD "baju" by 1
+DO "CUCI BAJU"
+
+4. Periksa Kuku
+STORE "SISWA" with 0
+WHILE "SISWA" < 40
+    ADD "SISWA" by 1
+    If "SISWA" = "kuku panjang"
+        DO "omelin"
+    else if 
+        DO "puji"
