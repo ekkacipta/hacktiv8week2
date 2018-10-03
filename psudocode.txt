@@ -25,11 +25,25 @@ Else If "hasil1" equals to 0 AND "hasil2" equals to 0 AND "hasil3" equals to 0
 Else
     DO "NOT KABISAT"
 
+2.Algoritma
+-masukan tahun 
+-hitung tahun kelipatan 4 dan masukan sebagai hasil1
+-hitung tahun kelipatan 100 dan masukan sebagai hasil2
+-hitung tahun kelipatan 400 dan masukan sebagai hasil3
+-jika hasil1 sama dengan 0 dan hasil2 tidak sama dengan 0 maka tampilkan kabisat 
+-jika hasil1 sama dengan 0 dan hasil2 sama dengan 0 dan hasil3 sama dengan 0 maka tampilkan kabisat
+-jika hasil tidak termaksud dengan hitungan di atas maka tampilkan bukan kabisat
+
 3.Laundry Dry
 STORE "baju" with 0
 WHILE "baju" < 20
     ADD "baju" by 1
 DO "CUCI BAJU"
+
+3.algoritma laundry 
+-masukan baju dengan jumlah 0 
+- masukan baju satu-satu sampai mencapai 20 
+- jika baju yang di masukan sudah mencapai 20 maka tampilkan cuci baju
 
 4. Periksa Kuku
 STORE "SISWA" with 0
@@ -39,3 +53,9 @@ WHILE "SISWA" < 40
         DO "omelin"
     else if 
         DO "puji"
+
+4.algoritma
+-masukan siswa dengan jumlah 0 
+-tambah siswa satu-satu sampai jumlah 40 
+-jika siswa memiliki kuku panjang maka tampilkan omelin
+-jika siswa memiliki kuku pendekk maka tampilkan puji
