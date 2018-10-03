@@ -1,8 +1,10 @@
-var a = 'Hallo Function'
-function shoutOut(){
-}
- console.log(a)
-
+function shoutOut(a){
+  var balik = ' '
+  for (var i = 0; i < a.length ; i++ ){
+      balik += a[i]
+    } return balik
+  }
+   console.log(shoutOut('hello function'))
 
  function calculateMultiply(num1, num2){
     return num1*num2
